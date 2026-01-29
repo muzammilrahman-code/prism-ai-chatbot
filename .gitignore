@@ -1,0 +1,14 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Data/Vector DB
+faiss_index/
