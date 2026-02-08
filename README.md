@@ -15,6 +15,9 @@ The system follows a Retrieval-Augmented Generation (RAG) workflow:
 2. **Vector Storage:** These vectors are stored locally in a `faiss_index` directory.
 3. **Smart Retrieval:** When a user asks a question, the system finds the most relevant FAQ and uses Google Palm to generate a natural response.
 
+##  Application Preview
+![images alt](https://github.com/muzammilrahman-code/prism-ai-chatbot/blob/0fac635787a9c92ee4830ae1e3302552a2372906/Screenshot%202026-02-08%20192142.png)
+
 ---
 
 ##  Getting Started
@@ -47,3 +50,4 @@ Once the knowledge base is ready:
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Add your `GOOGLE_API_KEY` to your environment variables or `.env` file.
 4. Run the app: `streamlit run main.py` or `uvicorn api:app`.
+
