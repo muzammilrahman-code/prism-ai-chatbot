@@ -49,5 +49,6 @@ Once the knowledge base is ready:
 1. Clone the repository.
 2. Install dependencies: `pip install -r requirements.txt`.
 3. Add your `GOOGLE_API_KEY` to your environment variables or `.env` file.
-4. Run the app: `streamlit run main.py` or `uvicorn api:app`.
+4. Run the app: `streamlit run app.py` or `uvicorn api:app`.
+
 
